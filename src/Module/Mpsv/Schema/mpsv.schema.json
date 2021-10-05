@@ -1,0 +1,92 @@
+{
+    "type": "object",
+    "properties": {
+        "polozky": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "maxLength": 129
+                    },
+                    "kod": {
+                        "type": "string",
+                        "maxLength": 64
+                    },
+                    "nazev": {
+                        "type": [
+                            "object"
+                        ],
+                        "properties": {
+                            "cs": {
+                                "type": [
+                                    "string"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "cs"
+                        ]
+                    },
+                    "vhodnostProNevidome": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "maxLength": 129
+                            }
+                        },
+                        "required": [
+                            "id"
+                        ]
+                    },
+                    "vhodnostProSlabozrake": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "maxLength": 129
+                            }
+                        },
+                        "required": [
+                            "id"
+                        ]
+                    },
+                    "oboryCinnosti": {
+                        "type": [
+                            "array",
+                            "null"
+                        ],
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string",
+                                    "maxLength": 129
+                                }
+                            },
+                            "required": [
+                                "id"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "id",
+                    "kod",
+                    "nazev"
+                ]
+            }
+        }
+    },
+    "required": [
+        "polozky"
+    ]
+}

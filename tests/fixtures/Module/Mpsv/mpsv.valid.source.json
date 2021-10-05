@@ -1,0 +1,61 @@
+{
+    "polozky": [
+        {
+            "id": "testFixtures/1",
+            "kod": "1",
+            "nazev": {
+                "cs": "Test Name 1"
+            },
+            "vhodnostProNevidome": {
+                "id": "Vhodnost/maloVh"
+            },
+            "vhodnostProSlabozrake": {
+                "id": "Vhodnost/vh"
+            },
+            "oboryCinnosti": [
+                {
+                    "id": "OborCinnostiProVm/7"
+                }
+            ]
+        },
+        {
+            "id": "testFixtures/2",
+            "kod": "2",
+            "nazev": {
+                "cs": "Test Name 2"
+            },
+            "vhodnostProNevidome": {
+                "id": "Vhodnost/neVh"
+            },
+            "vhodnostProSlabozrake": {
+                "id": "Vhodnost/neVh"
+            },
+            "oboryCinnosti": [
+                {
+                    "id": "OborCinnostiProVm/10"
+                }
+            ]
+        },
+        {
+            "id": "testFixtures/3",
+            "kod": "3",
+            "nazev": {
+                "cs": "Test Name 3"
+            },
+            "vhodnostProNevidome": {
+                "id": "Vhodnost/maloVh"
+            },
+            "vhodnostProSlabozrake": {
+                "id": "Vhodnost/neurc"
+            },
+            "oboryCinnosti": [
+                {
+                    "id": "OborCinnostiProVm/7"
+                },
+                {
+                    "id": "OborCinnostiProVm/9"
+                }
+            ]
+        }
+    ]
+}

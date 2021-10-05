@@ -1,0 +1,18 @@
+{
+    "id": "testFixtures/1",
+    "kod": "1",
+    "nazev": {
+        "cs": "Test Name 1"
+    },
+    "vhodnostProNevidome": {
+        "id": "Vhodnost/maloVh"
+    },
+    "vhodnostProSlabozrake": {
+        "id": "Vhodnost/vh"
+    },
+    "oboryCinnosti": [
+        {
+            "id": "OborCinnostiProVm/7"
+        }
+    ]
+}
